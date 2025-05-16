@@ -78,6 +78,9 @@ button:hover{
   background: rgba(0, 116, 90, 0.555);
   color:white;
 }
+.sobre{
+  font-size:larger;
+}
 
 footer{
     height: 100 px;
