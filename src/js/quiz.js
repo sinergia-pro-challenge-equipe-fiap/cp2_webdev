@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     const listaResultado = document.getElementById('lista-resultado');
     const reiniciarBotao = document.getElementById('inicio-btn')
 
+    alert('Bem-vindo ao Quiz!');
+    
     //DECLARANDO O ARRAY DE PERGUNTAS
     const questoes=[
         "Qual linguagem de programação você utiliza ",
