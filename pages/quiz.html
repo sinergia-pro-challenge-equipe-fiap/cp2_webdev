@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Elétricos New Era</title>
+    <link rel="stylesheet" href="/src/css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Carros Elétricos New Era</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/pages/carros.html">Carros</a></li>
+                    <li><a href="/pages/quiz.html">Quiz</a></li>
+                    <li><a href="/pages/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="container-quiz">
+        <div class="quiz">
+            <h1>Aprenda Programação</h1>
+            <section id ="container-perguntas">
+                <h2 id="pergunta"></h2>
+                <div id="container-respostas">
+                    <input type="text" id="resposta" placeholder="Digite sua resposta">
+                </div>
+                <button id="proximo"> Próxima Pergunta</button>
+                <p id="message"></p>
+            </section>
+            <section id="container-resultado" class="hidden">
+                <h2>Resultado do quiz</h2>
+                <ul id="lista-resultado"></ul>
+                <button id="inicio-btn">Reiniciar</button>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <div class="info">
+            <p>Telefone: 91842-8940</p>
+            <p>Email: carroseletricosnewera@carromail.com</p>
+            <p>Endereço: Rua dos Tambores, n° 2025 </p>
+        </div>
+        <p>&copy;2025- todos os direitos reservados</p>
+    </footer>
+    
+    <script src="../js/quiz.js"></script>
+</body>
+</html>
