@@ -12,10 +12,16 @@ document.addEventListener('DOMContentLoaded',()=>{
     
     //DECLARANDO O ARRAY DE PERGUNTAS
     const questoes=[
-        "Qual linguagem de programação você utiliza ",
-        "Descreva essa linguagem",
-        "Em que ano surgiu a Linguagem utilizada",
-        "Você se considera um prograamador senior",
+        "Qual carro você deseja comprar ?  ",
+        "Você tem interesse em alguma marca de carro especifica ?",
+        "Quais são os principais fatores a serem considerados ao escolher um carro novo ?",
+        "Qual é o seu orçamento máximo para a compra do veículo?",
+        "Tem intenção de realizar um test drive antes de tomar a decisão?",
+        "Já verificou o custo médio do seguro para os modelos que está avaliando?",
+        "Pretende usar o carro principalmente para uso urbano, viagens ou ambos?",
+        "Está interessado em carros com motorização tradicional (combustão) ou já considera híbridos ou elétricos?",
+        "Tem preferência por câmbio manual ou automático?",
+        "Qual é a sua expectativa em relação ao consumo de combustível?",
     ]
     //DECLARANDOS AS VARIAVEIS
     let perguntas = 0;

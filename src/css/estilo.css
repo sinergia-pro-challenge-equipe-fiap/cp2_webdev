@@ -117,7 +117,7 @@ button:hover{
 .quiz h1{
     text-align: center;
     margin-bottom: 20px;
-    color:blue;
+    color:rgba(0, 116, 90, 0.555);
 }
 
 #container-perguntas h2{
@@ -159,7 +159,7 @@ button:hover{
 #container-resultado {
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #fff;
     border-radius: 4px;
 }
 
